@@ -1,5 +1,10 @@
 import React, { useState } from 'react'
-
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 import MoviesData from './Components/MoviesData/MoviesData';
 import MovieList from './Components/MovieList/MovieList'
 import FilterByTitle from './Components/FilterByTitle/FilterByTitle';
